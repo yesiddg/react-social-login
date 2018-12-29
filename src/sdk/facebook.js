@@ -151,7 +151,7 @@ const getProfile = () => new Promise((resolve) => {
 /**
  * Helper to generate user account data.
  * @param {Object} response
- */
+ */ /* eslint-disable-next-line camelcase */
 const generateUser = ({ accessToken, id, email, expiresIn, first_name, last_name, name, picture, userID, ...other }) => ({
   profile: {
     id,
